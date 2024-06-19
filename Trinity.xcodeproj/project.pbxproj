@@ -9,19 +9,23 @@
 /* Begin PBXBuildFile section */
 		4369D3842C2281F90074C372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4369D3832C2281F90074C372 /* AppDelegate.swift */; };
 		4369D3862C2281F90074C372 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4369D3852C2281F90074C372 /* SceneDelegate.swift */; };
-		4369D3882C2281F90074C372 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4369D3872C2281F90074C372 /* ViewController.swift */; };
+		4369D3882C2281F90074C372 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4369D3872C2281F90074C372 /* HomeViewController.swift */; };
 		4369D38D2C2281FC0074C372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4369D38C2C2281FC0074C372 /* Assets.xcassets */; };
 		4369D3902C2281FC0074C372 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4369D38F2C2281FC0074C372 /* Base */; };
+		4369D3A02C2287280074C372 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4369D39F2C2287280074C372 /* TabBarViewController.swift */; };
+		4369D3A22C2287990074C372 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4369D3A12C2287990074C372 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4369D3802C2281F90074C372 /* Trinity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trinity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4369D3832C2281F90074C372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4369D3852C2281F90074C372 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4369D3872C2281F90074C372 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4369D3872C2281F90074C372 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4369D38C2C2281FC0074C372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4369D38F2C2281FC0074C372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4369D3912C2281FC0074C372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4369D39F2C2287280074C372 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		4369D3A12C2287990074C372 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +120,9 @@
 		4369D39D2C2284A40074C372 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				4369D3872C2281F90074C372 /* ViewController.swift */,
+				4369D3872C2281F90074C372 /* HomeViewController.swift */,
+				4369D3A12C2287990074C372 /* ProfileViewController.swift */,
+				4369D39F2C2287280074C372 /* TabBarViewController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -198,7 +204,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4369D3882C2281F90074C372 /* ViewController.swift in Sources */,
+				4369D3A02C2287280074C372 /* TabBarViewController.swift in Sources */,
+				4369D3882C2281F90074C372 /* HomeViewController.swift in Sources */,
+				4369D3A22C2287990074C372 /* ProfileViewController.swift in Sources */,
 				4369D3842C2281F90074C372 /* AppDelegate.swift in Sources */,
 				4369D3862C2281F90074C372 /* SceneDelegate.swift in Sources */,
 			);
